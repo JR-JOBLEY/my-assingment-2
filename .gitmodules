@@ -16,5 +16,20 @@ Changes to be committed:
 	new file:   DbConnector
   [submodule "DbConnector"]
 	path = DbConnector
-	url = https://github.com/chaconinc/DbConnector
+	url = https://github.com/chaconinc/DbConnector[core]
+    repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    worktree = ..\..\..\..\plugins\tasks
+    symlinks = false
+    ignorecase = true
+    hideDotFiles = dotGitOnly
+[remote "origin"]
+    url = ssh://domain/repo/path
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+	
   
